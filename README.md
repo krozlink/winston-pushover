@@ -23,6 +23,8 @@ The Pushover transport takes the following options. Both 'userKey' and 'token' a
 * __userKey:__ The user key for the Pushover user who will receive the notifications.
 * __token:__ The Pushover API token for your application.
 * __sound:__ Which custom notification sound to use (optional).
+* __messageFormatter:__ A function that takes a message object and returns the formatted string that will be displayed in the notification (optional).
+* __getMessagePriority:__ A function that takes a log level and returns the pushover priority level to be used (optional).
 
 ## Dependencies
 
