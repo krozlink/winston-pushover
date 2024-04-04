@@ -1,6 +1,6 @@
 {
   "name": "winston-pushover",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "author": "Matthew Tole <matthew@matthewtole.com>",
   "description": "A transport for Winston that uses the Pushover notification service.",
   "main": "./lib/winston-pushover",
